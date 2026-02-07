@@ -2,30 +2,61 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
-  <title>自动发布站</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="自动生成的内容，定期更新" />
-  <style>
-    body{font-family:Arial;background:#f5f6f7;margin:0}
-    header{background:#111;color:#fff;padding:20px}
-    main{max-width:900px;margin:20px auto;background:#fff;padding:20px}
-    article{border-bottom:1px solid #eee;padding:12px 0}
-    a{text-decoration:none;color:#111}
-    a:hover{color:#007bff}
-    time{font-size:12px;color:#888}
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>阿杰的汽车评测 | Car Blog</title>
+  <meta name="description" content="专注汽车评测、新能源与真实用车体验的个人汽车博主网站" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-<header>
-  <h1>🚀 自动发布站</h1>
-  <p>由 GitHub Actions 自动生成内容</p>
-</header>
-<main>
-  <!-- POSTS -->
-  <article>
-    <h2>欢迎</h2>
-    <p>这是一个自动发布的网站模板。GitHub Actions 会定期运行并生成新内容。</p>
-  </article>
-</main>
+  <header class="hero">
+    <h1>阿杰的汽车评测</h1>
+    <p>真实 · 专业 · 不恰饭（尽量）</p>
+  </header>
+
+  <nav class="nav">
+    <a href="#reviews">评测</a>
+    <a href="#categories">分类</a>
+    <a href="#about">关于我</a>
+  </nav>
+
+  <main class="container">
+    <section id="reviews">
+      <h2>最新评测</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>特斯拉 Model Y 长测体验</h3>
+          <p>续航、智能化、家用表现全面分析。</p>
+          <span class="tag">新能源</span>
+        </article>
+        <article class="card">
+          <h3>比亚迪汉 DM-i 深度评测</h3>
+          <p>国产混动代表作，是否值得买？</p>
+          <span class="tag">混动</span>
+        </article>
+        <article class="card">
+          <h3>宝马 3 系操控还香吗？</h3>
+          <p>经典燃油车在新能源时代的答案。</p>
+          <span class="tag">轿车</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="categories">
+      <h2>车型分类</h2>
+      <ul class="categories">
+        <li>🚗 轿车</li>
+        <li>🚙 SUV</li>
+        <li>⚡ 新能源</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>关于我</h2>
+      <p>一名汽车爱好者，关注真实用车体验与长期成本，拒绝参数党。</p>
+      <p>📮 合作联系：carblog@example.com</p>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 阿杰的汽车评测</footer>
 </body>
 </html>
